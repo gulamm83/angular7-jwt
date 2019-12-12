@@ -1,0 +1,12 @@
+<div class="container">
+     <h3 class="text-center">Registration</h3>
+  <div>
+    User Name : <input type="text" name="username" [(ngModel)]="username"><br/><br/>
+    Password : <input type="password" name="password" [(ngModel)]="password"><br/><br/>
+    Email: <input type="email" name="email" [(ngModel)]="email"> <br/><br/>
+    Phone: <input type="phone" name="phone" [(ngModel)]="phone"><br/><br/>
+  </div>
+  <button (click)=completeRegistration() class="btn btn-success">
+    Registration
+  </button>
+</div>
